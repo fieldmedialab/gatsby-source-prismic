@@ -12,7 +12,7 @@ Source plugin for pulling documents into Gatsby from prismic.io repositories. Fo
 // In your gatsby-config.js
 plugins: [
   {
-    resolve: `gatsby-source-prismic`,
+    resolve: `gatsby-source-prismic-field`,
     options: {
       repositoryName: `your_repository_name`,
       accessToken: `your_acces_token`

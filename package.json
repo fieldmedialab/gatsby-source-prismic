@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-prismic-field",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description":
     "Gatsby source plugin for building websites using prismic.io as a data source. Forked from gatsby-source-prismic.",
   "scripts": {
