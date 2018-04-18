@@ -1,10 +1,10 @@
-# gatsby-source-prismic
+# gatsby-source-prismic-field
 
-Source plugin for pulling documents into Gatsby from prismic.io repositories.
+Source plugin for pulling documents into Gatsby from prismic.io repositories. Forked from gatsby-source-prismic to permit json extraction and some other custom features.
 
 ## Install
 
-`npm install --save gatsby-source-prismic`
+`npm install --save gatsby-source-prismic-field`
 
 ## How to use
 
@@ -15,10 +15,10 @@ plugins: [
     resolve: `gatsby-source-prismic`,
     options: {
       repositoryName: `your_repository_name`,
-      accessToken: `your_acces_token`,
-    },
-  },
-]
+      accessToken: `your_acces_token`
+    }
+  }
+];
 ```
 
 ## How to query

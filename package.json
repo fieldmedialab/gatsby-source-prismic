@@ -1,25 +1,24 @@
 {
-  "name": "gatsby-source-prismic",
-  "version": "0.1.4",
-  "description": "Gatsby source plugin for building websites using prismic.io as a data source",
+  "name": "gatsby-source-prismic-field",
+  "version": "0.0.1",
+  "description":
+    "Gatsby source plugin for building websites using prismic.io as a data source. Forked from gatsby-source-prismic.",
   "scripts": {
     "prepublish": "npm run build",
     "build": "babel src --out-dir .",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "format":
+      "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "babel -w src --out-dir ."
   },
-  "homepage": "https://github.com/angeloashmore/gatsby-source-prismic",
+  "homepage": "https://github.com/fieldmedialab/gatsby-source-prismic",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angeloashmore/gatsby-source-prismic.git"
+    "url": "https://github.com/fieldmedialab/gatsby-source-prismic.git"
   },
-  "keywords": [
-    "gatsby",
-    "gatsby-plugin",
-    "gatsby-source-plugin"
-  ],
-  "author": "Angelo Ashmore <angelo.ashmore@walltowall.com>",
+  "keywords": ["gatsby", "gatsby-plugin", "gatsby-source-plugin"],
+  "author":
+    "Angelo Ashmore <angelo.ashmore@walltowall.com>, Field Media Lab <hello@fieldmedialab.com>",
   "license": "MIT",
   "dependencies": {
     "gatsby-node-helpers": "^0.1.3",
